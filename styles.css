@@ -1,0 +1,49 @@
+
+:root {
+    --green: mediumspringgreen;
+	--coral: lightcoral;
+    --lt-blue: skyblue;
+	--blue: blue;
+    --white: white;
+
+    --font: "Helvetica", sans-serif;
+	--image: url(Photos/pattern.jpg);
+}
+
+* {
+	font-family: var(--font);
+}
+
+h1 {
+	background-image: var(--image);
+    text-align: center;
+    font-size: 100px;
+    color: Khaki;
+}
+
+.item h2 {
+    font-size: 32px;
+	font-weight: bold;
+    color: var(--white);
+}
+
+#brush {
+	background-color: var(--green);
+}
+
+#frames {
+	background-color: var(--coral);
+}
+
+#paint {
+	background-color: var(--lt-blue);
+}
+
+h3 {
+	font-weight: bold;
+}
+
+.price {
+	font-weight: bold;
+	color: var(--blue);
+}
